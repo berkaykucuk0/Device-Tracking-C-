@@ -1,10 +1,9 @@
 # Device-Tracking-CSharp-
 Device Tracking with Windows Management Instrumentation (WMI) / Simple Network Management Protocol (SNMP)
 
-Basit Ağ Yönetimi Protokolü (SNMP), bir ağdaki farklı cihazların birbirleriyle bilgi paylaşmaları için bir yoldur. Cihazlar farklı donanım olsa ve farklı yazılım çalıştırsa bile cihazların iletişim kurmasını sağlar.
-WMI ( Windows Yönetim Araçları ), amacı Windows'un farklı işletim ortamlarıyla ilgilenmek olan Microsoft'un teknolojik bir buluşudur.
+Simple Network Management Protocol (SNMP) is a way for different devices on a network to share information with each other. It allows devices to communicate even if the devices have different hardware and run different software. WMI (Windows Management Instrumentation) is a technological invention of Microsoft whose purpose is to deal with different operating environments of Windows.
 
-Projede ip adresleri alınan cihazlar hakkında detaylı bilgiler listelenir,port taraması yapılır ve veritabanına kaydedilir.Kaydedilen verilerde belirlenen ortalamanın üzerinde bir değişim yaşandığı taktirde raporlama sistemi ile rapor verilir.
+Detailed information about the devices whose ip addresses are taken in the project is listed, port scanning is performed and recorded in the database. If there is a change above the determined average in the recorded data, a report is given with the reporting system.
 
 ![ports](https://user-images.githubusercontent.com/73891330/112338903-3e39e580-8cd0-11eb-8f57-aa0fdb734771.PNG)
 ![wmiList](https://user-images.githubusercontent.com/73891330/112338907-3f6b1280-8cd0-11eb-98d6-0fae15b0d703.PNG)
